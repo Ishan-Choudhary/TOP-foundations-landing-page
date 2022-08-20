@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@100;300;400;700;900&display=swap');
 
 *   {
     padding: 0px;
@@ -97,12 +97,13 @@ h1  {
 }
 /********************HERO SECTION STYLING ENDING*************************/
 
-/*******************INFORMATION SECTION*********************************/
+/*******************INFORMATION SECTION BEGINING*********************************/
 .information    {
     display: flex;
     flex-direction: column;
     flex: 0 1 auto;
     align-items: center;
+    height: 330px;
 }
 .cards  {
     display: flex;
@@ -144,4 +145,33 @@ h1  {
     padding-left: 10px;
     align-items: center;
     justify-content: center;
+}
+/*******************INFORMATION SECTION ENDING*********************************/
+
+
+/*******************QUOTE SECTION BEGINING*********************************/  
+.testimonial   {
+    display: flex;
+    flex: 0 1 auto;
+    align-items: center;
+    justify-content: center;
+    height: 330px;
+    background-color: #E5E7EB;
+}
+
+.review {
+    flex: 0 1 auto;
+    width: 800px;
+}
+
+.quote  {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+    width: 830px;
+}
+
+.quoteAuthor    {
+    text-align: right;
 }

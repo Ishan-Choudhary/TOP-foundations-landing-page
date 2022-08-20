@@ -165,6 +165,7 @@ h1  {
 }
 
 .quote  {
+    font-family: 'Roboto', sans-serif;
     font-size: 36px;
     color: #1F2937;
     font-weight: 100;

@@ -110,7 +110,7 @@ h1  {
     flex: 0 1 auto;
     flex-direction: row;
     margin-top: 30px;
-
+    margin-right: 30px;
 }
 
 .section-header {
@@ -175,4 +175,69 @@ h1  {
 
 .quoteAuthor    {
     text-align: right;
+}
+/*******************QUOTE SECTION ENDS***********************************/
+
+/*******************CALL TO ACTION SECTION BEGINS***********************/
+.signUpSection  {
+    display: flex;
+    flex: 0 1 auto;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.highlight    {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    align-items: center;
+    background-color: #3882F6;
+    width: 900px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.content    {
+    display: flex;
+    flex: 0 1 0;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+    height: 150px;
+    margin-top: 30px;
+}
+
+#main   {
+    font-weight: 700;
+}
+
+#sub    {
+    font-size: 12px;
+    color:#f0f0f0
+}
+
+.signUp {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    border: 2px solid #F9FAF8;
+    border-radius: 7px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 12px 25px 12px 25px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/*******************CALL TO ACTION SECTION ENDS***********************/
+
+/*******************FOOTER SECTION BEGINS***********************/
+.footer {
+    display: flex;
+    flex: 0 1 auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    height: 80px;
 }
